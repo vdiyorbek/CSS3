@@ -1,0 +1,24 @@
+a:first-child {
+  color: blue;
+}
+a:last-child {
+  color: green;
+}
+/* p */
+p:only-child {
+  color: lawngreen;
+}
+/* Span */
+span:only-of-type {
+  color: green;
+}
+.p:only-of-type {
+  color: red;
+}
+.div:only-of-type {
+  color: blue;
+}
+/* table styles */
+tr:nth-of-type(2n + 1) {
+  background-color: #bbb;
+}
